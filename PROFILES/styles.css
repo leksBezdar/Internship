@@ -443,3 +443,60 @@ footer {
 .tabs {
   margin: 0 var(--indent);
   }
+
+.tab_bttn{
+  background-color: transparent;
+}
+
+
+
+.main-div {
+  color: #000000;
+  padding: 20px;
+}
+
+.main-div h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.main-div .request {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.request-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+main-div h3 {
+  font-size: 18px;
+}
+
+.request-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-div p {
+  margin-bottom: 5px;
+}
+
+.main-div button {
+  background-color: rgba(6, 93, 227, 0.3);
+  color: #000000;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.main-div button:hover {
+  background-color: rgba(6, 93, 227, 0.5);
+}

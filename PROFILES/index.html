@@ -12,7 +12,6 @@
 </head>
 <style>
   .tab_bttn {
-    background-color: white;
     border: none;
     outline: none;
     font-size: larger;
@@ -37,8 +36,7 @@
       <img src="./logos/main-logo.png" alt="logo" class="main-logo">
       <div class="slogan">
         <h1>
-          "Сделаем ваш учет лучше:
-          одна заявка - одно решение!"
+          "Финансовая ясность, отчетность безупречна!"
         </h1>
       </div>
       <div class="hamburger-menu">
@@ -91,8 +89,32 @@
             <button onclick="changeTab(this)" value="accepted" class="tab_bttn">приняты</button>
           </div>
           <div class="tabs_content">
-            <div style="display: block;" class="sent tab">отправлены контент</div>
-            <div style="display: none;" class="accepted tab">приняты контент</div>
+            <div class="main-div">
+              <h2>Отправленные запросы</h2>
+              <div class="request">
+                <div class="request-info">
+                  <h3>Запрос #1</h3>
+                  <p>Дата: 12 июня 2023</p>
+                  <p>Статус: В обработке</p>
+                </div>
+                <div class="request-details">
+                  <p>Детали запроса Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</p>
+                  <button>Подробнее</button>
+                </div>
+              </div>
+              <div class="request">
+                <div class="request-info">
+                  <h3>Запрос #2</h3>
+                  <p>Дата: 10 июня 2023</p>
+                  <p>Статус: Завершен</p>
+                </div>
+                <div class="request-details">
+                  <p>Детали запроса Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, impedit.</p>
+                  <button>Подробнее</button>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>
